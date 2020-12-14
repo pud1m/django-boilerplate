@@ -46,7 +46,7 @@ services:
     environment:
       POSTGRES_PASSWORD: password
       POSTGRES_DB: postgres
-      POSTGRES_USER: PROJECT_NAME
+      POSTGRES_USER: postgres
     ports:
       - 5432:5432
 
