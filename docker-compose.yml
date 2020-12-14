@@ -19,6 +19,8 @@ services:
       - db_network
     expose:
       - 8000
+    depends_on:
+      - db
 
   nginx:
     build: ./nginx
