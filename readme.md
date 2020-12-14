@@ -12,6 +12,8 @@ It includes, besides django (obviously):
 ## Setup
 After cloning the project, replace every 'PROJECT_NAME' in every file with your project name. **Please note that the project name has to be in lower case, with only letters or '_'**. You also need to replace PROJECT_URL in the settings file with the production url for the project. This doesn't need to be something real until you actually deploy to production.
 
+Also, don't forget to rename the PROJECT_NAME folder, inside src, to the same name you set in the other PROJECT_NAME occurencies in the project
+
 Then, after that, you need to create a dev.env file and set a secret key for it. You can cd into the main folder for this project and generate a new secret key by running the generate_secret_key.py script:
 ```bash
   python generate_secret_key.py
